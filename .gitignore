@@ -1,0 +1,108 @@
+# =========================
+# Python related
+# =========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+myenv/                  # <- আপনার যদি myenv নামে virtual env থাকে
+*.pyenv
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS generated
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+ehthumbs_vista.db
+
+# =========================
+# ML / Data Science specific
+# =========================
+
+# Large or temporary data files
+*.csv
+*.xlsx
+*.json
+*.pkl
+*.joblib
+*.zip
+*.tar.gz
+*.h5
+*.pb
+*.pt
+*.onnx
+
+# But আপনি যদি কোনো ডেটা ফাইল (যেমন: heart.csv) রিপোজিট করতে চান, তাহলে তা এখানে থাকবে না
+# তবে সাধারণত বড় ডেটা ফাইল বা মডেল আউটপুট যেমন .pkl বা .joblib রিপোজিট করা উচিত নয়
+
+# তবে আপনার যদি কোনো মডেল ফাইল (যেমন: xgboost_heart_failure_model.pkl) রিপোজিট করতে চান, তাহলে এটি এখানে থাকবে না — কিন্তু সাধারণত বড় ফাইল হওয়ায় এটি রিপোজিট করা উচিত নয়
+
+# =========================
+# ঐচ্ছিক: যদি আপনি কোনো নির্দিষ্ট ফাইল রিপোজিট করতে চান (যেমন: app.py, train_model.py, heart.csv)
+# তাহলে সেগুলো এখানে উল্লেখ করবেন না — তারা ডিফল্ট রিপোজিট হবে
+# =========================
